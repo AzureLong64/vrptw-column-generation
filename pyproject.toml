@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vrptw-column-generation"
+version = "0.1.0"
+description = "Standard column generation and dynamic separation of aggregated rows for VRPTW LPs"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "highspy>=1.10,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "scipy>=1.11"]
+
+[project.scripts]
+vrptw-cg = "vrptw_cg.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vrptw_cg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,178 @@
+[
+  {
+    "algorithm": "standard",
+    "status": "optimal_lp",
+    "lp_optimum": 4684.929243406301,
+    "elapsed_seconds": 32.217089199999464,
+    "lp_seconds": 5.061552199989819,
+    "pricing_seconds": 26.7339737000093,
+    "iterations": 129,
+    "outer_rounds": 1,
+    "generated_columns": 17178,
+    "generated_rows": 200,
+    "heuristics": true,
+    "stages": {
+      "exact_dssr": {
+        "calls": 46,
+        "seconds": 20.320858100003534,
+        "successful_calls": 45,
+        "routes_returned": 11643,
+        "labels": 436135,
+        "reasons": {
+          "column_batch": 45,
+          "exhausted": 1
+        },
+        "empty_call_seconds": 0.4014317999990453
+      },
+      "greedy": {
+        "calls": 129,
+        "seconds": 1.1595960000031482,
+        "successful_calls": 80,
+        "routes_returned": 5286,
+        "labels": 0,
+        "reasons": {
+          "column_batch": 7,
+          "heuristic": 122
+        },
+        "empty_call_seconds": 0.42659460000504623
+      },
+      "network_10": {
+        "calls": 46,
+        "seconds": 2.3421416000037425,
+        "successful_calls": 0,
+        "routes_returned": 0,
+        "labels": 230000,
+        "reasons": {
+          "label_limit": 46
+        },
+        "empty_call_seconds": 2.3421416000037425
+      },
+      "network_5": {
+        "calls": 49,
+        "seconds": 2.9113779999988765,
+        "successful_calls": 3,
+        "routes_returned": 49,
+        "labels": 245000,
+        "reasons": {
+          "label_limit": 49
+        },
+        "empty_call_seconds": 2.7525972000003094
+      }
+    }
+  },
+  {
+    "algorithm": "dyn-sar",
+    "status": "optimal_lp",
+    "lp_optimum": 4684.929243406593,
+    "elapsed_seconds": 70.88357259999975,
+    "lp_seconds": 3.045855099991968,
+    "pricing_seconds": 67.34367020000172,
+    "iterations": 132,
+    "outer_rounds": 25,
+    "generated_columns": 6835,
+    "generated_rows": 244,
+    "heuristics": true,
+    "stages": {
+      "exact_dssr": {
+        "calls": 120,
+        "seconds": 52.43777019999652,
+        "successful_calls": 95,
+        "routes_returned": 5756,
+        "labels": 946380,
+        "reasons": {
+          "column_batch": 95,
+          "exhausted": 25
+        },
+        "empty_call_seconds": 10.667669400007071
+      },
+      "greedy": {
+        "calls": 132,
+        "seconds": 1.1858610999952361,
+        "successful_calls": 11,
+        "routes_returned": 877,
+        "labels": 0,
+        "reasons": {
+          "column_batch": 1,
+          "heuristic": 131
+        },
+        "empty_call_seconds": 1.080240599992976
+      },
+      "network_10": {
+        "calls": 120,
+        "seconds": 6.353531700004169,
+        "successful_calls": 0,
+        "routes_returned": 0,
+        "labels": 600000,
+        "reasons": {
+          "label_limit": 120
+        },
+        "empty_call_seconds": 6.353531700004169
+      },
+      "network_5": {
+        "calls": 121,
+        "seconds": 7.366507200005799,
+        "successful_calls": 1,
+        "routes_returned": 2,
+        "labels": 605000,
+        "reasons": {
+          "label_limit": 121
+        },
+        "empty_call_seconds": 7.30475870000555
+      }
+    }
+  },
+  {
+    "algorithm": "standard",
+    "status": "optimal_lp",
+    "lp_optimum": 4684.929243406302,
+    "elapsed_seconds": 40.46302199999991,
+    "lp_seconds": 5.726742300003025,
+    "pricing_seconds": 34.18558479998683,
+    "iterations": 91,
+    "outer_rounds": 1,
+    "generated_columns": 24412,
+    "generated_rows": 200,
+    "heuristics": false,
+    "stages": {
+      "exact_dssr": {
+        "calls": 91,
+        "seconds": 34.18558479998683,
+        "successful_calls": 90,
+        "routes_returned": 24212,
+        "labels": 883750,
+        "reasons": {
+          "column_batch": 90,
+          "exhausted": 1
+        },
+        "empty_call_seconds": 0.3751634999989619
+      }
+    }
+  },
+  {
+    "algorithm": "dyn-sar",
+    "status": "optimal_lp",
+    "lp_optimum": 4684.929243406351,
+    "elapsed_seconds": 60.50299629999972,
+    "lp_seconds": 3.4451812999923277,
+    "pricing_seconds": 56.660512200011,
+    "iterations": 129,
+    "outer_rounds": 25,
+    "generated_columns": 6625,
+    "generated_rows": 235,
+    "heuristics": false,
+    "stages": {
+      "exact_dssr": {
+        "calls": 129,
+        "seconds": 56.660512200011,
+        "successful_calls": 104,
+        "routes_returned": 6425,
+        "labels": 1007196,
+        "reasons": {
+          "column_batch": 104,
+          "exhausted": 25
+        },
+        "empty_call_seconds": 11.004647500003557
+      }
+    }
+  }
+]

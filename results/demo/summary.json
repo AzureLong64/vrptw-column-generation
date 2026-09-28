@@ -1,0 +1,38 @@
+{
+  "instance": "tiny6_two_regions",
+  "n_customers": 6,
+  "model": "elementary-route covering LP, no fleet constraint",
+  "results": [
+    {
+      "algorithm": "standard",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 24.787177664152942,
+      "last_rmp_objective": 24.787177664152942,
+      "iterations": 3,
+      "outer_rounds": 1,
+      "generated_columns": 18,
+      "generated_rows": 6,
+      "elapsed_seconds": 0.004794500000571134,
+      "certified_emp_lower_bound": 24.787177664152942,
+      "feasible_lp_upper_bound": 24.787177664152942
+    },
+    {
+      "algorithm": "dyn-sar",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 24.787177664152942,
+      "last_rmp_objective": 24.787177664152942,
+      "iterations": 6,
+      "outer_rounds": 3,
+      "generated_columns": 18,
+      "generated_rows": 3,
+      "elapsed_seconds": 0.00850929999978689,
+      "certified_emp_lower_bound": 24.787177664152942,
+      "feasible_lp_upper_bound": 24.787177664152942
+    }
+  ],
+  "reference_lp": 24.787177664152942,
+  "enumerated_customer_sets": 41,
+  "reference_check_passed": true
+}

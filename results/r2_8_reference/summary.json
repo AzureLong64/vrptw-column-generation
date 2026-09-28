@@ -1,0 +1,38 @@
+{
+  "instance": "r2_2_5_n8",
+  "n_customers": 8,
+  "model": "elementary-route covering LP, no fleet constraint",
+  "results": [
+    {
+      "algorithm": "standard",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 444.98411233285225,
+      "last_rmp_objective": 444.98411233285225,
+      "iterations": 8,
+      "outer_rounds": 1,
+      "generated_columns": 38,
+      "generated_rows": 8,
+      "elapsed_seconds": 0.008140100000673556,
+      "certified_emp_lower_bound": 444.98411233285225,
+      "feasible_lp_upper_bound": 444.98411233285225
+    },
+    {
+      "algorithm": "dyn-sar",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 444.98411233285213,
+      "last_rmp_objective": 444.98411233285213,
+      "iterations": 8,
+      "outer_rounds": 4,
+      "generated_columns": 24,
+      "generated_rows": 4,
+      "elapsed_seconds": 0.00978179999947315,
+      "certified_emp_lower_bound": 444.98411233285213,
+      "feasible_lp_upper_bound": 444.98411233285213
+    }
+  ],
+  "reference_lp": 444.98411233285225,
+  "enumerated_customer_sets": 255,
+  "reference_check_passed": true
+}

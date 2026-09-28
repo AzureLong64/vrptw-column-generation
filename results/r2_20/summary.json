@@ -1,0 +1,36 @@
+{
+  "instance": "r2_2_5_n20",
+  "n_customers": 20,
+  "model": "elementary-route covering LP, no fleet constraint",
+  "results": [
+    {
+      "algorithm": "standard",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 855.4603281039437,
+      "last_rmp_objective": 855.4603281039437,
+      "iterations": 14,
+      "outer_rounds": 1,
+      "generated_columns": 342,
+      "generated_rows": 20,
+      "elapsed_seconds": 0.19978319999972882,
+      "certified_emp_lower_bound": 855.4603281039437,
+      "feasible_lp_upper_bound": 855.4603281039437
+    },
+    {
+      "algorithm": "dyn-sar",
+      "status": "optimal_lp",
+      "certified_optimal": true,
+      "lp_optimum": 855.4603281039437,
+      "last_rmp_objective": 855.4603281039437,
+      "iterations": 33,
+      "outer_rounds": 15,
+      "generated_columns": 160,
+      "generated_rows": 15,
+      "elapsed_seconds": 0.7681173000000854,
+      "certified_emp_lower_bound": 855.4603281039437,
+      "feasible_lp_upper_bound": 855.4603281039437
+    }
+  ],
+  "objectives_match": true
+}
